@@ -32,7 +32,7 @@ public class CS345GUIProject {
             String driver = "com.mysql.cj.jdbc.Driver";
             String url = "jdbc:mysql://127.0.0.1:3306/enrollment?zeroDateTimeBehavior=CONVERT_TO_NULL";
             String username = "root";
-            String password = "Anche0397rry@";
+            String password = "";
             Class.forName( driver );
             Connection currConnection = DriverManager.getConnection( url, username, password );
             System.out.println("Connected to the database....");
